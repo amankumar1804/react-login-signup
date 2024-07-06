@@ -1,0 +1,176 @@
+.container {
+    background: linear-gradient(to bottom right, rgb(7, 45, 45), rgb(9, 135, 135));
+   
+  
+    justify-content: center;
+    align-items: center;
+}
+.login {
+
+   text-align: center;
+    background-color: aqua;
+    margin-bottom: 20px;
+    
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+.main-container {
+    background-color: yellowgreen;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(7, 55, 55);
+}
+
+span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+span a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+
+/* 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: linear-gradient(to bottom, #072d2d, #0a6767);
+    color: white;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+form {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+span a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+.Toastify__toast-container {
+    z-index: 9999;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+} */
